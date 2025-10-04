@@ -1,0 +1,11 @@
+The vistor opens the main (home page)
+    - with catagories
+        - Random product appears 
+        - showcase machine operation (videos)
+    - drop down list of product
+        - list 
+            - Banner
+            - Sticker
+            - Paper products
+    - Registery page appears    
+     - be member of warka and have discount
