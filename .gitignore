@@ -23,4 +23,5 @@ dist-ssr
 *.sln
 *.sw?
 
-# assets and structure holder directory
+# assets and structure holder directories
+projectStrucuter.txt
