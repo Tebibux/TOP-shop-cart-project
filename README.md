@@ -13,19 +13,17 @@ If you are developing a production application, we recommend using TypeScript wi
 
 
 
-# As of the Odin Project I try to start a shop for my business 
-# It is a printing business and it shows thing that can be provide
+### As of the Odin Project I try to start a shop for my business 
+### It is a printing business and it shows thing that can be provide
 
-## I will start learning tailwind css throughout the project complition
+### I will start learning tailwind css throughout the project complition
 
 
 ### Folder set up
 
-# assets folder will hold the images
+#### assets folder will hold the images
     - the processAsset.jsx
     - images nessery for the project
     - texts and description
-# App.js will handle the core function
-# Components folder include all the component nesscesy to the project
-
-    - 
+### App.js will handle the core function
+### Components folder include all the component nesscesy to the project
