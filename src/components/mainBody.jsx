@@ -1,6 +1,6 @@
 import React from 'react'
 
-function mainBody() {
+function MainBody() {
     return (
         <div>
             <h2>Items will appier with their catagories</h2>
@@ -9,4 +9,4 @@ function mainBody() {
     )
 }
 
-export default mainBody 
+export default MainBody 

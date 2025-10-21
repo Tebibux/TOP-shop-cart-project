@@ -1,6 +1,6 @@
 import React from 'react'
 
-function footer() {
+function Footer() {
     return (
         <div>
             <h3>contact info</h3>
@@ -13,4 +13,4 @@ function footer() {
     )
 }
 
-export default footer
+export default Footer

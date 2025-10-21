@@ -1,6 +1,6 @@
 import React from 'react'
 
-function item() {
+function Item() {
     return (
         <div>
             <img src="" alt="item image" />
@@ -11,4 +11,4 @@ function item() {
     )
 }
 
-export default item
+export default Item

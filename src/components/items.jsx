@@ -1,6 +1,6 @@
 import React from 'react'
 
-function items() {
+function Items() {
     return (
         <div>
             <h2>Items will appear with their categories</h2>
@@ -8,4 +8,4 @@ function items() {
     )
 }
 
-export default items
+export default Items
