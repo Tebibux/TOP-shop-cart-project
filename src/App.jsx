@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Header from './components/header.jsx'
-import Section from './components/section.jsx'
+import Section from './components/Section.jsx'
 import MainBody from './components/mainBody.jsx'
 import Footer from './components/footer.jsx'
 

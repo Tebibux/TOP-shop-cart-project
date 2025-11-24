@@ -1,8 +1,11 @@
+import Items from "./Items";
+import Section from "./Section.jsx";
+
+
 function MainBody() {
     return (
         <div>
-            <h2>Items will appier with their catagories</h2>
-            <h3>iitems will be here with thier product description</h3>
+            <Items />
         </div>
     )
 }
