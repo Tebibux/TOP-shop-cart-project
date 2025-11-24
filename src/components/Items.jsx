@@ -1,9 +1,22 @@
 import Item from "./Item.jsx"
 function Items() {
     return (
-        <div>
+        < >
             <Item />
-        </div>
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+        </>
     )
 }
 
