@@ -3,7 +3,6 @@ function Items() {
     return (
         <div>
             <Item />
-            <Item />
         </div>
     )
 }
