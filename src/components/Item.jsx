@@ -1,8 +1,9 @@
 import { useState } from "react"
 
+export const [cartCount, setCartCount] = useState(0);
+
 function Item() {
     const [count, setCount] = useState(0);
-    const [cartCount, setCartCount] = useState(0);
 
     function increment() {
         setCount(count + 1);
@@ -13,10 +14,7 @@ function Item() {
             setCount(count - 1);
         }
     }
-    function addToCartFunction() {
-        setCartCount(cartCount + count);
-        setCount(0);
-    }
+
     return (
         <div className="max-w-xs bg-white rounded-2xl shadow p-4 flex flex-col gap-3 m-2">
             <img src="src/assets/images/Screenshot from 2025-11-24 15-03-47.png" alt="item image" className="w-full h-40 object-cover rounded-xl" />
@@ -34,4 +32,3 @@ function Item() {
 }
 
 export default Item;
-// export { cartCount };
