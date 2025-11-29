@@ -6,16 +6,6 @@ function Items() {
             <Item />
             <Item />
             <Item />
-            <Item />
-            <Item />
-            <Item />
-            <Item />
-            <Item />
-            <Item />
-            <Item />
-            <Item />
-            <Item />
-            <Item />
         </>
     )
 }

@@ -1,3 +1,6 @@
+// import { cartCount } from "./Item";
+import Button from "../assets/Button";
+
 
 const Header = () => {
     return (
@@ -5,8 +8,8 @@ const Header = () => {
             <nav aria-label="Global" className="mx-auto flex max-w-7x1 items-center justify-between p-6 lg:px-8">
                 <div className="text-3x1 font-bold underline">Warka Printing Shop</div>
                 <div className="flex items-center justify-between">
-                    <div className="nav px-8">Cart</div>
-                    <div className="user px-8">User</div>
+                    <button className="nav px-8">Cart</button>
+                    <Button btnName={`Items ${null}`} />
                 </div>
             </nav>
         </div>

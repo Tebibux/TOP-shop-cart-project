@@ -1,8 +1,8 @@
 import { useState } from "react"
 
-
 function Item() {
     const [count, setCount] = useState(0);
+    const [cartCount, setCartCount] = useState(0);
 
     function increment() {
         setCount(count + 1);
@@ -13,7 +13,10 @@ function Item() {
             setCount(count - 1);
         }
     }
-
+    function addToCartFunction() {
+        setCartCount(cartCount + count);
+        setCount(0);
+    }
     return (
         <div className="max-w-xs bg-white rounded-2xl shadow p-4 flex flex-col gap-3 m-2">
             <img src="src/assets/images/Screenshot from 2025-11-24 15-03-47.png" alt="item image" className="w-full h-40 object-cover rounded-xl" />
@@ -24,10 +27,11 @@ function Item() {
                 <button className="px-3 py-1 bg-gray-200 rounded-full text-lg font-bold" id="btnMinus" onClick={() => decrement()}>-</button>
                 <span className="text-lg font-semibold">{count}</span>
                 <button className="px-3 py-1 bg-gray-200 rounded-full text-lg font-bold" id="btnPlus" onClick={() => increment()}>+</button>
-                <button className="">Add</button>
+                <button className="" onClick={() => addToCartFunction()}> Add</button>
             </div>
         </div>
     )
 }
 
-export default Item
+export default Item;
+// export { cartCount };
