@@ -1,6 +1,4 @@
-import { useState } from "react"
-
-export const [cartCount, setCartCount] = useState(0);
+import { useState } from "react";
 
 function Item() {
     const [count, setCount] = useState(0);
@@ -15,6 +13,13 @@ function Item() {
         }
     }
 
+    function addToCartFunc() {
+        // Functionality to add the item to the cart
+
+        console.log("Added to cart:", count);
+        setCount(0);
+    }
+
     return (
         <div className="max-w-xs bg-white rounded-2xl shadow p-4 flex flex-col gap-3 m-2">
             <img src="src/assets/images/Screenshot from 2025-11-24 15-03-47.png" alt="item image" className="w-full h-40 object-cover rounded-xl" />
@@ -25,7 +30,7 @@ function Item() {
                 <button className="px-3 py-1 bg-gray-200 rounded-full text-lg font-bold" id="btnMinus" onClick={() => decrement()}>-</button>
                 <span className="text-lg font-semibold">{count}</span>
                 <button className="px-3 py-1 bg-gray-200 rounded-full text-lg font-bold" id="btnPlus" onClick={() => increment()}>+</button>
-                <button className="" onClick={() => addToCartFunction()}> Add</button>
+                <button className="" onClick={addToCartFunc}> Add</button>
             </div>
         </div>
     )
