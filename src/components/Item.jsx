@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function Item() {
+function Item(props) {
     const [count, setCount] = useState(0);
 
     function increment() {
@@ -15,8 +15,9 @@ function Item() {
 
     function addToCartFunc() {
         // Functionality to add the item to the cart
-
+        props.cartItems.push(count);
         console.log("Added to cart:", count);
+        console.log("Current cart items:", props.cartItems.length);
         setCount(0);
     }
 

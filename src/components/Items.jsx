@@ -1,11 +1,11 @@
 import Item from "./Item.jsx"
-function Items() {
+function Items(props) {
     return (
         < >
-            <Item />
-            <Item />
-            <Item />
-            <Item />
+            <Item cartItems={props.cartItems} />
+            <Item cartItems={props.cartItems} />
+            <Item cartItems={props.cartItems} />
+            <Item cartItems={props.cartItems} />
         </>
     )
 }

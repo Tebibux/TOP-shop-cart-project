@@ -9,8 +9,14 @@ function Button(props) {
         borderRadius: '5px',
         cursor: 'pointer',
     }
+
+    function checkFunc() {
+        console.log("Cart Items:", props.cartItems);
+    }
+
+
     return (
-        <div style={buttonSytle}>{props.btnName}</div>
+        <div onClick={checkFunc} style={buttonSytle}>{props.btnName} </div>
     )
 }
 

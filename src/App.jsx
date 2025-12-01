@@ -5,11 +5,12 @@ import MainBody from './components/mainBody.jsx';
 import Footer from './components/footer.jsx';
 
 function App() {
+  const [cartItems, setCartItems] = useState([]);
 
   return (
     <div>
-      <Header />
-      <MainBody />
+      <Header cartItems={cartItems} />
+      <MainBody cartItems={cartItems} />
       <Footer />
     </div>
   )
