@@ -14,11 +14,11 @@ function Item(props) {
     }
 
     function addToCartFunc() {
-        // Functionality to add the item to the cart
-        props.cartItems.push(count);
+        if (count <= 0) return
         console.log("Added to cart:", count);
         console.log("Current cart items:", props.cartItems.length);
         setCount(0);
+        setCartItems(...cartItems, count);
     }
 
     return (

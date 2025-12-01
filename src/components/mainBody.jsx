@@ -9,7 +9,7 @@ function MainBody(props) {
                 <Section />
             </section>
             <main className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-4 flex-1">
-                <Items cartItems={props.cartItems} />
+                <Items cartItems={props.cartItems} setCartItems={props.setCartItems} />
             </main>
         </div>
     )
