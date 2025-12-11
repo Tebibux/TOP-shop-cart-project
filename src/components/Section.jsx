@@ -6,11 +6,8 @@ function Section() {
             <ul className="space-y-3 text-gray-700">
                 <li className="cursor-pointer hover:text-blue-600 hover:font-medium">All Items</li>
                 <li className="cursor-pointer hover:text-blue-600 hover:font-medium">Electronics</li>
-                <li className="cursor-pointer hover:text-blue-600 hover:font-medium">Clothing</li>
-                <li className="cursor-pointer hover:text-blue-600 hover:font-medium">Shoes</li>
-                <li className="cursor-pointer hover:text-blue-600 hover:font-medium">Accessories</li>
-                <li className="cursor-pointer hover:text-blue-600 hover:font-medium">Sports & Fitness</li>
-                <li className="cursor-pointer hover:text-blue-600 hover:font-medium">Books</li>
+                <li className="cursor-pointer hover:text-blue-600 hover:font-medium">Men's Clothing</li>
+                <li className="cursor-pointer hover:text-blue-600 hover:font-medium">Women's Clothing</li>
             </ul>
         </div>
 

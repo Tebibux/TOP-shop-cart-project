@@ -2,6 +2,11 @@ import Button from "../assets/Button";
 import { useState } from "react";
 
 const Header = (props) => {
+    const [cartItems, setCartItemsLength] = useState(props.setCartItemsLength);
+
+
+
+
     return (
         <div className="bg-gray-900 text-white">
             <nav aria-label="Global" className="mx-auto flex max-w-7x1 items-center justify-between p-6 lg:px-8">
